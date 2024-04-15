@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDA488D2BC827ED001F9732 /* CMakeCCompilerId.c in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48482BC827ED001F9732 /* CMakeCCompilerId.c */; };
+		AFDA488E2BC827ED001F9732 /* CMakeCCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDA48492BC827ED001F9732 /* CMakeCCompilerId.o */; };
+		AFDA488F2BC827ED001F9732 /* CMakeCXXCompilerId.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDA484C2BC827ED001F9732 /* CMakeCXXCompilerId.cpp */; };
+		AFDA48902BC827ED001F9732 /* CMakeCXXCompilerId.o in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDA484D2BC827ED001F9732 /* CMakeCXXCompilerId.o */; };
+		AFDA48912BC827ED001F9732 /* TBFF.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDA48572BC827ED001F9732 /* TBFF.cpp.o */; };
+		AFDA48922BC827ED001F9732 /* TBFF.cpp.o.d in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48582BC827ED001F9732 /* TBFF.cpp.o.d */; };
+		AFDA48932BC827ED001F9732 /* build.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA485B2BC827ED001F9732 /* build.make */; };
+		AFDA48942BC827ED001F9732 /* compiler_depend.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA485E2BC827ED001F9732 /* compiler_depend.make */; };
+		AFDA48952BC827ED001F9732 /* depend.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48602BC827ED001F9732 /* depend.make */; };
+		AFDA48962BC827ED001F9732 /* flags.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48622BC827ED001F9732 /* flags.make */; };
+		AFDA48972BC827ED001F9732 /* progress.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48642BC827ED001F9732 /* progress.make */; };
+		AFDA48982BC827ED001F9732 /* TBFF.cpp.o in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDA48662BC827ED001F9732 /* TBFF.cpp.o */; };
+		AFDA48992BC827ED001F9732 /* TBFF.cpp.o.d in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48672BC827ED001F9732 /* TBFF.cpp.o.d */; };
+		AFDA489A2BC827ED001F9732 /* build.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA486A2BC827ED001F9732 /* build.make */; };
+		AFDA489B2BC827ED001F9732 /* compiler_depend.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA486C2BC827ED001F9732 /* compiler_depend.make */; };
+		AFDA489C2BC827ED001F9732 /* depend.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA486E2BC827ED001F9732 /* depend.make */; };
+		AFDA489D2BC827ED001F9732 /* flags.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48702BC827ED001F9732 /* flags.make */; };
+		AFDA489E2BC827ED001F9732 /* progress.make in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48722BC827ED001F9732 /* progress.make */; };
+		AFDA489F2BC827ED001F9732 /* TBFF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFDA487C2BC827ED001F9732 /* TBFF.cpp */; };
+		AFDA48A02BC827ED001F9732 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = AFDA48892BC827ED001F9732 /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF0565712BC6C803002635CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF0565732BC6C803002635CC /* TBFF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TBFF; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB66CDD2BCC2F37006F868D /* Oli.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Oli.h; sourceTree = "<group>"; };
+		AFDA48402BC827ED001F9732 /* pluginbuild.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = pluginbuild.yml; sourceTree = "<group>"; };
+		AFDA48442BC827ED001F9732 /* SuperColliderCompilerConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuperColliderCompilerConfig.cmake; sourceTree = "<group>"; };
+		AFDA48452BC827ED001F9732 /* SuperColliderServerPlugin.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuperColliderServerPlugin.cmake; sourceTree = "<group>"; };
+		AFDA48482BC827ED001F9732 /* CMakeCCompilerId.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMakeCCompilerId.c; sourceTree = "<group>"; };
+		AFDA48492BC827ED001F9732 /* CMakeCCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCCompilerId.o; sourceTree = "<group>"; };
+		AFDA484C2BC827ED001F9732 /* CMakeCXXCompilerId.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakeCXXCompilerId.cpp; sourceTree = "<group>"; };
+		AFDA484D2BC827ED001F9732 /* CMakeCXXCompilerId.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = CMakeCXXCompilerId.o; sourceTree = "<group>"; };
+		AFDA484F2BC827ED001F9732 /* CMakeCCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCCompiler.cmake; sourceTree = "<group>"; };
+		AFDA48502BC827ED001F9732 /* CMakeCXXCompiler.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCXXCompiler.cmake; sourceTree = "<group>"; };
+		AFDA48512BC827ED001F9732 /* CMakeDetermineCompilerABI_C.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_C.bin; sourceTree = "<group>"; };
+		AFDA48522BC827ED001F9732 /* CMakeDetermineCompilerABI_CXX.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = CMakeDetermineCompilerABI_CXX.bin; sourceTree = "<group>"; };
+		AFDA48532BC827ED001F9732 /* CMakeSystem.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeSystem.cmake; sourceTree = "<group>"; };
+		AFDA48572BC827ED001F9732 /* TBFF.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = TBFF.cpp.o; sourceTree = "<group>"; };
+		AFDA48582BC827ED001F9732 /* TBFF.cpp.o.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = TBFF.cpp.o.d; sourceTree = "<group>"; };
+		AFDA485B2BC827ED001F9732 /* build.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = build.make; sourceTree = "<group>"; };
+		AFDA485C2BC827ED001F9732 /* cmake_clean.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_clean.cmake; sourceTree = "<group>"; };
+		AFDA485D2BC827ED001F9732 /* compiler_depend.internal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = compiler_depend.internal; sourceTree = "<group>"; };
+		AFDA485E2BC827ED001F9732 /* compiler_depend.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = compiler_depend.make; sourceTree = "<group>"; };
+		AFDA485F2BC827ED001F9732 /* compiler_depend.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = compiler_depend.ts; sourceTree = "<group>"; };
+		AFDA48602BC827ED001F9732 /* depend.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = depend.make; sourceTree = "<group>"; };
+		AFDA48612BC827ED001F9732 /* DependInfo.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DependInfo.cmake; sourceTree = "<group>"; };
+		AFDA48622BC827ED001F9732 /* flags.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = flags.make; sourceTree = "<group>"; };
+		AFDA48632BC827ED001F9732 /* link.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.txt; sourceTree = "<group>"; };
+		AFDA48642BC827ED001F9732 /* progress.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = progress.make; sourceTree = "<group>"; };
+		AFDA48662BC827ED001F9732 /* TBFF.cpp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = TBFF.cpp.o; sourceTree = "<group>"; };
+		AFDA48672BC827ED001F9732 /* TBFF.cpp.o.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = TBFF.cpp.o.d; sourceTree = "<group>"; };
+		AFDA486A2BC827ED001F9732 /* build.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = build.make; sourceTree = "<group>"; };
+		AFDA486B2BC827ED001F9732 /* cmake_clean.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_clean.cmake; sourceTree = "<group>"; };
+		AFDA486C2BC827ED001F9732 /* compiler_depend.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = compiler_depend.make; sourceTree = "<group>"; };
+		AFDA486D2BC827ED001F9732 /* compiler_depend.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = compiler_depend.ts; sourceTree = "<group>"; };
+		AFDA486E2BC827ED001F9732 /* depend.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = depend.make; sourceTree = "<group>"; };
+		AFDA486F2BC827ED001F9732 /* DependInfo.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DependInfo.cmake; sourceTree = "<group>"; };
+		AFDA48702BC827ED001F9732 /* flags.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = flags.make; sourceTree = "<group>"; };
+		AFDA48712BC827ED001F9732 /* link.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.txt; sourceTree = "<group>"; };
+		AFDA48722BC827ED001F9732 /* progress.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = progress.make; sourceTree = "<group>"; };
+		AFDA48742BC827ED001F9732 /* cmake.check_cache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake.check_cache; sourceTree = "<group>"; };
+		AFDA48752BC827ED001F9732 /* CMakeConfigureLog.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = CMakeConfigureLog.yaml; sourceTree = "<group>"; };
+		AFDA48762BC827ED001F9732 /* CMakeDirectoryInformation.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeDirectoryInformation.cmake; sourceTree = "<group>"; };
+		AFDA48772BC827ED001F9732 /* Makefile.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.cmake; sourceTree = "<group>"; };
+		AFDA48782BC827ED001F9732 /* Makefile2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile2; sourceTree = "<group>"; };
+		AFDA48792BC827ED001F9732 /* progress.marks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = progress.marks; sourceTree = "<group>"; };
+		AFDA487A2BC827ED001F9732 /* TargetDirectories.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TargetDirectories.txt; sourceTree = "<group>"; };
+		AFDA487C2BC827ED001F9732 /* TBFF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBFF.cpp; sourceTree = "<group>"; };
+		AFDA487D2BC827ED001F9732 /* TBFF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFF.h; sourceTree = "<group>"; };
+		AFDA487E2BC827ED001F9732 /* TBFF.sc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TBFF.sc; sourceTree = "<group>"; };
+		AFDA487F2BC827ED001F9732 /* TBFF.schelp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TBFF.schelp; sourceTree = "<group>"; };
+		AFDA48822BC827ED001F9732 /* .appveyor.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .appveyor.yml; sourceTree = "<group>"; };
+		AFDA48832BC827ED001F9732 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AFDA48842BC827ED001F9732 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		AFDA48852BC827ED001F9732 /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmake_install.cmake; sourceTree = "<group>"; };
+		AFDA48862BC827ED001F9732 /* CMakeCache.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeCache.txt; sourceTree = "<group>"; };
+		AFDA48872BC827ED001F9732 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		AFDA48882BC827ED001F9732 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AFDA48892BC827ED001F9732 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		AFDA488A2BC827ED001F9732 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AFDA488B2BC827ED001F9732 /* regenerate */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = regenerate; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0565702BC6C803002635CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA48912BC827ED001F9732 /* TBFF.cpp.o in Frameworks */,
+				AFDA488E2BC827ED001F9732 /* CMakeCCompilerId.o in Frameworks */,
+				AFDA48982BC827ED001F9732 /* TBFF.cpp.o in Frameworks */,
+				AFDA48902BC827ED001F9732 /* CMakeCXXCompilerId.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF05656A2BC6C803002635CC = {
+			isa = PBXGroup;
+			children = (
+				AFB66CDD2BCC2F37006F868D /* Oli.h */,
+				AFDA488C2BC827ED001F9732 /* MJSytsUGens */,
+				AF0565752BC6C803002635CC /* TBFF */,
+				AF0565742BC6C803002635CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0565742BC6C803002635CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0565732BC6C803002635CC /* TBFF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0565752BC6C803002635CC /* TBFF */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TBFF;
+			sourceTree = "<group>";
+		};
+		AFDA48412BC827ED001F9732 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48402BC827ED001F9732 /* pluginbuild.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		AFDA48422BC827ED001F9732 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48412BC827ED001F9732 /* workflows */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		AFDA48432BC827ED001F9732 /* build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		AFDA48462BC827ED001F9732 /* cmake_modules */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48442BC827ED001F9732 /* SuperColliderCompilerConfig.cmake */,
+				AFDA48452BC827ED001F9732 /* SuperColliderServerPlugin.cmake */,
+			);
+			path = cmake_modules;
+			sourceTree = "<group>";
+		};
+		AFDA48472BC827ED001F9732 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		AFDA484A2BC827ED001F9732 /* CompilerIdC */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48472BC827ED001F9732 /* tmp */,
+				AFDA48482BC827ED001F9732 /* CMakeCCompilerId.c */,
+				AFDA48492BC827ED001F9732 /* CMakeCCompilerId.o */,
+			);
+			path = CompilerIdC;
+			sourceTree = "<group>";
+		};
+		AFDA484B2BC827ED001F9732 /* tmp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tmp;
+			sourceTree = "<group>";
+		};
+		AFDA484E2BC827ED001F9732 /* CompilerIdCXX */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA484B2BC827ED001F9732 /* tmp */,
+				AFDA484C2BC827ED001F9732 /* CMakeCXXCompilerId.cpp */,
+				AFDA484D2BC827ED001F9732 /* CMakeCXXCompilerId.o */,
+			);
+			path = CompilerIdCXX;
+			sourceTree = "<group>";
+		};
+		AFDA48542BC827ED001F9732 /* 3.29.1 */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA484A2BC827ED001F9732 /* CompilerIdC */,
+				AFDA484E2BC827ED001F9732 /* CompilerIdCXX */,
+				AFDA484F2BC827ED001F9732 /* CMakeCCompiler.cmake */,
+				AFDA48502BC827ED001F9732 /* CMakeCXXCompiler.cmake */,
+				AFDA48512BC827ED001F9732 /* CMakeDetermineCompilerABI_C.bin */,
+				AFDA48522BC827ED001F9732 /* CMakeDetermineCompilerABI_CXX.bin */,
+				AFDA48532BC827ED001F9732 /* CMakeSystem.cmake */,
+			);
+			path = 3.29.1;
+			sourceTree = "<group>";
+		};
+		AFDA48552BC827ED001F9732 /* CMakeScratch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CMakeScratch;
+			sourceTree = "<group>";
+		};
+		AFDA48562BC827ED001F9732 /* pkgRedirects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pkgRedirects;
+			sourceTree = "<group>";
+		};
+		AFDA48592BC827ED001F9732 /* TBFF */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48572BC827ED001F9732 /* TBFF.cpp.o */,
+				AFDA48582BC827ED001F9732 /* TBFF.cpp.o.d */,
+			);
+			path = TBFF;
+			sourceTree = "<group>";
+		};
+		AFDA485A2BC827ED001F9732 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48592BC827ED001F9732 /* TBFF */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		AFDA48652BC827ED001F9732 /* TBFF_scsynth.dir */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA485A2BC827ED001F9732 /* plugins */,
+				AFDA485B2BC827ED001F9732 /* build.make */,
+				AFDA485C2BC827ED001F9732 /* cmake_clean.cmake */,
+				AFDA485D2BC827ED001F9732 /* compiler_depend.internal */,
+				AFDA485E2BC827ED001F9732 /* compiler_depend.make */,
+				AFDA485F2BC827ED001F9732 /* compiler_depend.ts */,
+				AFDA48602BC827ED001F9732 /* depend.make */,
+				AFDA48612BC827ED001F9732 /* DependInfo.cmake */,
+				AFDA48622BC827ED001F9732 /* flags.make */,
+				AFDA48632BC827ED001F9732 /* link.txt */,
+				AFDA48642BC827ED001F9732 /* progress.make */,
+			);
+			path = TBFF_scsynth.dir;
+			sourceTree = "<group>";
+		};
+		AFDA48682BC827ED001F9732 /* TBFF */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48662BC827ED001F9732 /* TBFF.cpp.o */,
+				AFDA48672BC827ED001F9732 /* TBFF.cpp.o.d */,
+			);
+			path = TBFF;
+			sourceTree = "<group>";
+		};
+		AFDA48692BC827ED001F9732 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48682BC827ED001F9732 /* TBFF */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		AFDA48732BC827ED001F9732 /* TBFF_supernova.dir */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48692BC827ED001F9732 /* plugins */,
+				AFDA486A2BC827ED001F9732 /* build.make */,
+				AFDA486B2BC827ED001F9732 /* cmake_clean.cmake */,
+				AFDA486C2BC827ED001F9732 /* compiler_depend.make */,
+				AFDA486D2BC827ED001F9732 /* compiler_depend.ts */,
+				AFDA486E2BC827ED001F9732 /* depend.make */,
+				AFDA486F2BC827ED001F9732 /* DependInfo.cmake */,
+				AFDA48702BC827ED001F9732 /* flags.make */,
+				AFDA48712BC827ED001F9732 /* link.txt */,
+				AFDA48722BC827ED001F9732 /* progress.make */,
+			);
+			path = TBFF_supernova.dir;
+			sourceTree = "<group>";
+		};
+		AFDA487B2BC827ED001F9732 /* CMakeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48542BC827ED001F9732 /* 3.29.1 */,
+				AFDA48552BC827ED001F9732 /* CMakeScratch */,
+				AFDA48562BC827ED001F9732 /* pkgRedirects */,
+				AFDA48652BC827ED001F9732 /* TBFF_scsynth.dir */,
+				AFDA48732BC827ED001F9732 /* TBFF_supernova.dir */,
+				AFDA48742BC827ED001F9732 /* cmake.check_cache */,
+				AFDA48752BC827ED001F9732 /* CMakeConfigureLog.yaml */,
+				AFDA48762BC827ED001F9732 /* CMakeDirectoryInformation.cmake */,
+				AFDA48772BC827ED001F9732 /* Makefile.cmake */,
+				AFDA48782BC827ED001F9732 /* Makefile2 */,
+				AFDA48792BC827ED001F9732 /* progress.marks */,
+				AFDA487A2BC827ED001F9732 /* TargetDirectories.txt */,
+			);
+			path = CMakeFiles;
+			sourceTree = "<group>";
+		};
+		AFDA48802BC827ED001F9732 /* TBFF */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA487C2BC827ED001F9732 /* TBFF.cpp */,
+				AFDA487D2BC827ED001F9732 /* TBFF.h */,
+				AFDA487E2BC827ED001F9732 /* TBFF.sc */,
+				AFDA487F2BC827ED001F9732 /* TBFF.schelp */,
+			);
+			path = TBFF;
+			sourceTree = "<group>";
+		};
+		AFDA48812BC827ED001F9732 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48802BC827ED001F9732 /* TBFF */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		AFDA488C2BC827ED001F9732 /* MJSytsUGens */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA48422BC827ED001F9732 /* .github */,
+				AFDA48432BC827ED001F9732 /* build */,
+				AFDA48462BC827ED001F9732 /* cmake_modules */,
+				AFDA487B2BC827ED001F9732 /* CMakeFiles */,
+				AFDA48812BC827ED001F9732 /* plugins */,
+				AFDA48822BC827ED001F9732 /* .appveyor.yml */,
+				AFDA48832BC827ED001F9732 /* .gitignore */,
+				AFDA48842BC827ED001F9732 /* .travis.yml */,
+				AFDA48852BC827ED001F9732 /* cmake_install.cmake */,
+				AFDA48862BC827ED001F9732 /* CMakeCache.txt */,
+				AFDA48872BC827ED001F9732 /* CMakeLists.txt */,
+				AFDA48882BC827ED001F9732 /* LICENSE */,
+				AFDA48892BC827ED001F9732 /* Makefile */,
+				AFDA488A2BC827ED001F9732 /* README.md */,
+				AFDA488B2BC827ED001F9732 /* regenerate */,
+			);
+			path = MJSytsUGens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0565722BC6C803002635CC /* TBFF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF05657A2BC6C803002635CC /* Build configuration list for PBXNativeTarget "TBFF" */;
+			buildPhases = (
+				AF05656F2BC6C803002635CC /* Sources */,
+				AF0565702BC6C803002635CC /* Frameworks */,
+				AF0565712BC6C803002635CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBFF;
+			productName = TBFF;
+			productReference = AF0565732BC6C803002635CC /* TBFF */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF05656B2BC6C803002635CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AF0565722BC6C803002635CC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AF05656E2BC6C803002635CC /* Build configuration list for PBXProject "TBFF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF05656A2BC6C803002635CC;
+			productRefGroup = AF0565742BC6C803002635CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0565722BC6C803002635CC /* TBFF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF05656F2BC6C803002635CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA488D2BC827ED001F9732 /* CMakeCCompilerId.c in Sources */,
+				AFDA489B2BC827ED001F9732 /* compiler_depend.make in Sources */,
+				AFDA48992BC827ED001F9732 /* TBFF.cpp.o.d in Sources */,
+				AFDA489A2BC827ED001F9732 /* build.make in Sources */,
+				AFDA489D2BC827ED001F9732 /* flags.make in Sources */,
+				AFDA48952BC827ED001F9732 /* depend.make in Sources */,
+				AFDA48A02BC827ED001F9732 /* Makefile in Sources */,
+				AFDA48962BC827ED001F9732 /* flags.make in Sources */,
+				AFDA48942BC827ED001F9732 /* compiler_depend.make in Sources */,
+				AFDA489C2BC827ED001F9732 /* depend.make in Sources */,
+				AFDA489F2BC827ED001F9732 /* TBFF.cpp in Sources */,
+				AFDA48922BC827ED001F9732 /* TBFF.cpp.o.d in Sources */,
+				AFDA48932BC827ED001F9732 /* build.make in Sources */,
+				AFDA48972BC827ED001F9732 /* progress.make in Sources */,
+				AFDA489E2BC827ED001F9732 /* progress.make in Sources */,
+				AFDA488F2BC827ED001F9732 /* CMakeCXXCompilerId.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF0565782BC6C803002635CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF0565792BC6C803002635CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF05657B2BC6C803002635CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4A3FTBT8M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../supercollider/include/common\"/**",
+					"\"$(SRCROOT)/../supercollider/include/lang\"/**",
+					"\"$(SRCROOT)/../supercollider/include/plugin_interface\"/**",
+					"\"$(SRCROOT)/../supercollider/include/server\"/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF05657C2BC6C803002635CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4A3FTBT8M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../supercollider/include/common\"/**",
+					"\"$(SRCROOT)/../supercollider/include/lang\"/**",
+					"\"$(SRCROOT)/../supercollider/include/plugin_interface\"/**",
+					"\"$(SRCROOT)/../supercollider/include/server\"/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF05656E2BC6C803002635CC /* Build configuration list for PBXProject "TBFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0565782BC6C803002635CC /* Debug */,
+				AF0565792BC6C803002635CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF05657A2BC6C803002635CC /* Build configuration list for PBXNativeTarget "TBFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF05657B2BC6C803002635CC /* Debug */,
+				AF05657C2BC6C803002635CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF05656B2BC6C803002635CC /* Project object */;
+}
